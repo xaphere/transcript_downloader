@@ -4,9 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go.uber.org/multierr"
 	"io"
 	"net/http"
+
+	"go.uber.org/multierr"
 )
 
 const location = "https://www.parliament.bg"

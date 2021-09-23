@@ -1,4 +1,4 @@
-module github.com/xaphere/transcript_downloader
+module github.com/xaphere/transcript_downloader/downloader
 
 go 1.16
 

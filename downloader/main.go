@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/xaphere/transcript_downloader/parliament"
+	"github.com/xaphere/transcript_downloader/downloader/parliament"
 )
 
 var log = logrus.New()
 
-var storage = parliament.NewFileStorage("data/")
+var storage = parliament.NewFileStorage("../data/")
 var getter = parliament.NewGetter(http.DefaultClient)
 
 const delay = time.Second * 2
